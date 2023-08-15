@@ -2,7 +2,7 @@
 
 This codebase implements Multiple Hypothesis Dropout and Mixture of Multiple-Output Functions (MoM).
 
-Please install pytorch==1.7 and the packages listed under requirements.txt before using.
+Please install pytorch==1.12 and the packages listed under requirements.txt before using.
 
 The notebooks reproduce experiments presented in the paper submission for AAAI. 
 
