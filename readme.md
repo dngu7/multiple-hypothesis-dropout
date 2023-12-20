@@ -11,7 +11,7 @@ Official implementation of the paper:
 ## News
 * **10 December, 2023**: Paper accepted into AAAI 2024 Main Track.
 
-## Paper Contrbutions
+## Paper Contributions
 
 - We introduce the **Multiple Hypothesis Dropout** (MH-Dropout), a novel variant of dropout that converts a single-output function into a multi-output function using the subnetworks derived from a base neural network.
 -  We found that combining Winner-Takes-All loss with *stochastic hypothesis sampling* allows MH-Dropout networks to stably learn the statistical variability of targets in multi-output scenarios.
