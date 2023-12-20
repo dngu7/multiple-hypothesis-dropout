@@ -89,7 +89,7 @@ class MhdLayer(nn.Module):
         elif self.gate_sampling == 'test':
             return torch.stack([torch.arange(self.gate_len)[:hypo_count] for _ in range(bsz)], dim=0).to(device)
         else:
-            raise ValueError("Invalid gate sampling type given f{gate_sampling}")
+            raise ValueError(f"Invalid gate sampling type given {self.gate_sampling}")
     
     def apply_gate(self, x, gate_idx):
         return x * torch.tensor(self.all_gates, dtype=x.dtype, device=x.device, requires_grad=x.requires_grad)[gate_idx]
